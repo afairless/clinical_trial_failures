@@ -226,7 +226,7 @@ prob_no_failures_across_sites(site_n, patient_n, screen_fail_prob, atleast)
 #   20 trial sites
 #   n patients per site
 #   0.50 probability of screen failure
-#   what is probability that >= 6 sites will each fail both patients?
+#   what is probability that >= 6 sites will each fail all its patients?
 
 site_n <- 20
 screen_fail_prob <- 0.50
